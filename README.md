@@ -1,5 +1,5 @@
 Device Galaxy Y
-===================
+===============
 
 Device tree for Samsung Galaxy Y S5360 - CM7
 
