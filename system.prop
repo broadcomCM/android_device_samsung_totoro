@@ -40,8 +40,8 @@ ro.telephony.call_ring.delay=0
 ro.ril.disable.power.collapse=0
 	
 # Display
-ro.sf.lcd_density=160
-qemu.sf.lcd_density=160
+ro.sf.lcd_density=120
+qemu.sf.lcd_density=120
 video.accelerate.hw=1
 ro.opengles.version=131072
 
