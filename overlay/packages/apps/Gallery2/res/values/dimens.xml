@@ -1,0 +1,21 @@
+<resources>    
+    <dimen name="effect_label_text_size">11.0sp</dimen>
+    <dimen name="effect_label_width">52.0dip</dimen>
+    <dimen name="effect_label_margin_top">1.0dip</dimen>
+    <dimen name="effect_icon_size">35.0dip</dimen>
+    <dimen name="effect_padding_horizontal">1.0dip</dimen>
+    <dimen name="effects_container_padding">1.0dip</dimen>
+    <dimen name="action_bar_arrow_margin_left">1.0dip</dimen>
+    <dimen name="action_bar_arrow_margin_right">1.0dip</dimen>
+    <dimen name="action_bar_icon_padding_left">1.0dip</dimen>
+    <dimen name="action_bar_icon_padding_right">1.0dip</dimen>
+    <dimen name="action_button_padding_horizontal">1.0dip</dimen>
+    <dimen name="effects_menu_container_width">140.0dip</dimen>
+    <dimen name="effect_tool_panel_padding">1.0dip</dimen>
+    <dimen name="seekbar_width">150.0dip</dimen>
+    <dimen name="seekbar_height">25.0dip</dimen>
+    <dimen name="seekbar_margin_bottom">1.0dip</dimen>
+    <dimen name="crop_indicator_size">25.0dip</dimen>
+    <dimen name="action_bar_icon_padding_vertical">1.0dip</dimen>
+    <dimen name="action_button_padding_vertical">1.0dip</dimen>
+</resources>  
