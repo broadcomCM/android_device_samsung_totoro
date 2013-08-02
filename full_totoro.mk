@@ -33,14 +33,13 @@ PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := totoro
 PRODUCT_MODEL := GT-S5360
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-S5360 BUILD_ID=totoro-userdebug eng.spacecaker.01.08.13 BUILD_DISPLAY_ID=totoro-userdebug eng.spacecaker.01.08.13 BUILD_FINGERPRINT=samsung/GT-S5360/GT-S5360:2.3.6/GINGERBREAD/XWKTN:user/release-keys PRIVATE_BUILD_DESC="GT-S5360-user 2.3.6 GINGERBREAD XWKTN release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-S5360 BUILD_FINGERPRINT=samsung/GT-S5360/GT-S5360:2.3.6/GINGERBREAD/XWKTN:user/release-keys PRIVATE_BUILD_DESC="GT-S5360-user 2.3.6 GINGERBREAD XWKTN release-keys"
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := GalaxyY
 
 # Add device package overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/totoro/overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/mdpi
 
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
