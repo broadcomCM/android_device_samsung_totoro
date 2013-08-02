@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
@@ -18,8 +17,6 @@
 */
 -->
 
-=======
->>>>>>> 78d59b4f8b68d3fac3594f91b0c4fe4cde5cfa83
 <!-- This is not a standalone element it can be included into apps that need 12-key input -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical">
@@ -147,11 +144,7 @@
         android:layout_marginRight="2dip"
         android:orientation="horizontal">
 
-<<<<<<< HEAD
         <Button android:id="@+id/ok"
-=======
-        <Button android:id="@+id/cancel"
->>>>>>> 78d59b4f8b68d3fac3594f91b0c4fe4cde5cfa83
             android:layout_width="0sp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -159,11 +152,7 @@
             android:layout_marginRight="2dip"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textStyle="bold"
-<<<<<<< HEAD
             android:text="@android:string/ok"
-=======
-            android:text="@android:string/cancel"
->>>>>>> 78d59b4f8b68d3fac3594f91b0c4fe4cde5cfa83
         />
 
         <Button android:id="@+id/zero"
@@ -176,11 +165,7 @@
             android:textStyle="bold"
         />
 
-<<<<<<< HEAD
         <Button android:id="@+id/cancel"
-=======
-        <Button android:id="@+id/ok"
->>>>>>> 78d59b4f8b68d3fac3594f91b0c4fe4cde5cfa83
             android:layout_width="0sp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -188,11 +173,7 @@
             android:layout_marginRight="2dip"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textStyle="bold"
-<<<<<<< HEAD
             android:text="@android:string/cancel"
-=======
-            android:text="@android:string/ok"
->>>>>>> 78d59b4f8b68d3fac3594f91b0c4fe4cde5cfa83
         />
 
     </LinearLayout>
