@@ -1,9 +1,9 @@
-Device Configuration AOSP GB For Galaxy Y
+Device Galaxy Y - AOSP GB 2.3.7
 =========================================
 
 Device tree for Samsung Galaxy Y S5360 - AOSP-GB
 
-Maintainer: Percy-g2 & PsychoGame & Spacecaker(aosp-gb)
+Maintainer: Spacecaker
 
 When compiling for this galaxy y 
 do this 
