@@ -46,17 +46,17 @@
                 android:src="@drawable/ic_mp_current_playlist_btn"
                 android:layout_width="48dip"
                 android:layout_height="36dip"
-                android:layout_marginTop="14dip" />
+                android:layout_marginTop="7dip" />
 
            <ImageButton android:id="@+id/shuffle"
                 android:layout_width="48dip"
                 android:layout_height="36dip"
-                android:layout_marginTop="20dip" />
+                android:layout_marginTop="10dip" />
 
            <ImageButton android:id="@+id/repeat"
                 android:layout_width="48dip"
                 android:layout_height="36dip"
-                android:layout_marginTop="20dip" />
+                android:layout_marginTop="10dip" />
 
         </LinearLayout>
 
