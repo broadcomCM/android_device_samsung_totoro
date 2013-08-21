@@ -77,9 +77,28 @@ alsa.mixer.playback.bt.a2dp=BTHeadset
 alsa.mixer.capture.bt.a2dp=BTHeadset
 
 # Performance Tweaks
+ro.compcache.default=0
+persist.sys.use_dithering=0
+view.fading_edge_length=8v
+view.minimum_fling_velocity=25
+view.scroll_friction=0.008
+view.touch_slop=15 X
 debug.composition.type=mdp
 windowsmgr.max_events_per_sec=150
+debug.performance.tuning=1
 
-#Tweaks
+# Tweaks
 ro.setupwizard.enable_bypass=1
 persist.sys.purgeable_assets=1
+
+# DNS Fix
+net.dns1=8.8.8.8
+net.dns2=8.8.4.4
+net.rmnet0.dns1=8.8.8.8
+net.rmnet0.dns2=8.8.4.4
+net.gprs.dns1=8.8.8.8
+net.gprs.dns2=8.8.4.4
+net.ppp0.dns1=8.8.8.8
+net.ppp0.dns2=8.8.4.4
+net.eth0.dns1=8.8.8.8
+net.eth0.dns2=8.8.4.4
