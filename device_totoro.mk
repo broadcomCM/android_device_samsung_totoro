@@ -47,20 +47,6 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 # Add LDPI assets, in addition to MDPI
 PRODUCT_LOCALES += ldpi mdpi
 
-# Kernel modules
-PRODUCT_COPY_FILES += \
-    device/samsung/totoro/prebuilt/root/fsr.ko:root/fsr.ko \
-    device/samsung/totoro/prebuilt/root/fsr_stl.ko:root/fsr_stl.ko \
-    device/samsung/totoro/prebuilt/root/rfs_fat.ko:root/rfs_fat.ko \
-    device/samsung/totoro/prebuilt/root/rfs_glue.ko:root/rfs_glue.ko \
-    device/samsung/totoro/prebuilt/root/j4fs.ko:root/j4fs.ko \
-    device/samsung/totoro/prebuilt/root/sec_param.ko:root/sec_param.ko
-
-# Board-specific init
-PRODUCT_COPY_FILES += \
-    device/samsung/totoro/ramdisk/init.rc:root/init.rc \
-    device/samsung/totoro/ramdisk/init.bcm21553.rc:root/init.bcm21553.rc
-
 # Prebuilt Kernel - DELETE from the package
 ifeq ($(TARGET_PREBUILT_KERNEL),)
     LOCAL_KERNEL := device/samsung/totoro/prebuilt/kernel
