@@ -46,16 +46,12 @@ video.accelerate.hw=1
 ro.opengles.version=131072
 
 # Google Location
-ro.com.google.locationfeatures=1
-ro.com.google.networklocation=1
+ro.com.google.locationfeatures=0
+ro.com.google.networklocation=0
 
 # Wifi interface
 wifi.interface=eth0
 wifi.supplicant_scan_interval=15
-net.rmnet0.dns1=8.8.8.8
-net.rmnet0.dns2=8.8.4.4
-net.dns1=8.8.8.8
-net.dns2=8.8.4.4
 
 # USB / SD card
 persist.service.usb.setting=0
@@ -90,11 +86,9 @@ debug.composition.type=mdp
 windowsmgr.max_events_per_sec=150
 debug.performance.tuning=1
 
-# CM parts hack
-persist.sys.use_16bpp_alpha=1
-persist.sys.jit-mode=int:jit
-persist.sys.jit-mode=1
-persist.sys.scrollingcache=3
+# For CyanMobile eXperience
+debug.composition.type=gpu
+persist.sys.composition.type=gpu
 
 #Tweaks
 ro.setupwizard.enable_bypass=1
