@@ -1,7 +1,7 @@
-Device Galaxy Y - CyanogenMod 7.2
+Device Galaxy Y - CyanMobileX 2.3.8
 =================================
 
-Device tree for Samsung Galaxy Y S5360 - CM7
+Device tree for Samsung Galaxy Y S5360 
 
 Maintainer: Percy-g2
 
