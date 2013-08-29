@@ -22,7 +22,7 @@
 <resources>
     <!-- Flag indicating whether we should enable the automatic brightness in Settings.
          config_hardware_automatic_brightness_available is not set, so we will use software implementation -->
-    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_automatic_brightness_available">false</bool>
 
     <!-- Component name of the service providing network location support. -->
     <string name="config_networkLocationProvider">com.google.android.location.NetworkLocationProvider</string>
@@ -52,6 +52,7 @@
          USB interfaces. If the device doesn't want to support tething over USB this should
          be empty. An example would be "usb.*" -->
     <string-array translatable="false" name="config_tether_usb_regexs">
+        <item>"rndis\\d"</item>
         <item>"usb\\d"</item>
     </string-array>
 
