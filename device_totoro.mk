@@ -29,8 +29,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/mdpi
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-# Add LDPI assets, in addition to MDPI
-    PRODUCT_LOCALES += ldpi
+# Add MDPI assets, in addition to LDPI
+    PRODUCT_LOCALES += ldpi mdpi
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := totoro
